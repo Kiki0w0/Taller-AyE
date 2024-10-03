@@ -19,7 +19,7 @@ class ArregloRedimensionableDeRecordatorios {
 
     public void agregarAtras(Recordatorio i) {
         // Implementar
-        longitud = longitud() + 1;
+        longitud = longitud + 1;
 
         Recordatorio[] arreglo_nuevo = new Recordatorio[longitud];
 
