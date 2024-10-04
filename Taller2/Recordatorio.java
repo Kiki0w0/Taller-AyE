@@ -40,7 +40,7 @@ public class Recordatorio {
     @Override
     public boolean equals(Object otro) {
         // Implementar
-        boolean otroEsNull = (otro == null);
+        boolean otroEsNull = (otro != null);
       
         boolean claseDistinta = this.getClass() != otro.getClass();
         
